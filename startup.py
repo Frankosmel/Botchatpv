@@ -12,7 +12,7 @@ async def start(msg: types.Message):
         "usando la inteligencia de ChatGPT.\n\n"
         "🧠 Puedes configurar tu propio prompt y usar tu propia API key de OpenAI para personalizar cómo responde tu cuenta.\n\n"
         "💳 Para comenzar, consulta los planes disponibles con /planes\n"
-        "📌 Luego conecta el bot en Telegram Business → Ajustes → Chatbots → escribe <code>@TuBot</code>\n\n"
+        "📌 Luego conecta el bot en Telegram Business → Ajustes → Chatbots → escribe <code>@Respuesta_auto_bot</code>\n\n"
         "❓ Usa /comandos para ver lo que puedes hacer."
     )
     await msg.answer(bienvenida, parse_mode="HTML")
